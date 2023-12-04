@@ -1,0 +1,79 @@
+* {
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  border: 3px dashed rgb(1, 255, 1);
+  text-align: center;
+  margin: 25px;
+}
+
+header #title {
+  color: rgb(1, 255, 1);
+  text-shadow: 1px 1px blue;
+  font-size: 36px;
+}
+
+header > h3 {
+  font-style: italic;
+  font-size: 28px;
+}
+
+main {
+  border-left: 3px dashed blue;
+  border-right: 3px dashed blue;
+  margin: 25px;
+  padding: 2%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+main > h1 {
+  color: blue;
+  font-style: italic;
+  font-size: 32px;
+}
+
+ul li {
+  line-height: 3;
+}
+
+.invaders {
+  color: aqua;
+}
+
+a {
+  color: red;
+}
+
+nav {
+  border-bottom: 3px dashed white;
+}
+
+h2 {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.indent {
+  text-indent: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+footer p {
+  border-top: 3px dashed red;
+  margin: 25px;
+  padding-top: 10px;
+  text-align: right;
+}
